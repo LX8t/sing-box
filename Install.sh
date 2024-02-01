@@ -4591,7 +4591,7 @@ function check_wireguard_config() {
 }
 
 function Update_Script() {
-    wget -O /root/singbox.sh https://raw.githubusercontent.com/TinrLin/script_installation/main/Install.sh
+    wget -O /root/singbox.sh https://github.com/LX8t/sing-box/blob/main/Install.sh
     chmod +x /root/singbox.sh 
 }
 
@@ -4849,7 +4849,7 @@ function main_menu() {
 echo "╔════════════════════════════════════════════════════════════════════════╗"
 echo -e "║ ${CYAN}作者${NC}： Mr. xiao                                                        ║"
 echo -e "║ ${CYAN}博客地址${NC}: https://tinrlin.com                                          ║"
-echo -e "║ ${CYAN}项目地址${NC}: https://github.com/TinrLin                                   ║"
+echo -e "║ ${CYAN}项目地址${NC}: https://github.com/LX8t/sing-box                                   ║"
 echo -e "║ ${CYAN}Telegram 群组${NC}: https://t.me/mrxiao758                                  ║"
 echo -e "║ ${CYAN}YouTube频道${NC}: https://youtube.com/@Mr_xiao502       Version：1.1        ║"
 echo "╠════════════════════════════════════════════════════════════════════════╣"
